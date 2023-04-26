@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery Store</title>
+    <link rel="stylesheet" href="./css/registration.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/free-icon-shopping-basket-1077979.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="login">
+        <div class="content">
+          <div class="title">Регистрация</div>
+          <form onSubmit="return send_data(this)">
+            <div class="info">
+              <input
+                type="text"
+                name="name"
+                placeholder="Придумайте имя пользователя / e-mail"
+                class="name"
+              />
+              <input
+                type="password"
+                name="text"
+                placeholder="Придумайте пароль"
+                class="password"
+              />
+              <input
+                type="password"
+                name="text"
+                placeholder="Повторите пароль"
+                class="password"
+              />
+            </div>
+            <div class="modal_box">
+              <span class="overlay"></span>
+
+              <div class="modal-box">
+                <!-- <i class="fa-regular fa-circle-check"></i> -->
+                <div class="h2">Спасибо за регистрацию</div>
+                <div class="h3">
+                  Подтвердите регистрацию, пройдя по ссылке, отправленной на
+                  почту
+                </div>
+                <button class="close-btn">Закрыть</button>
+              </div>
+            </div>
+            <div class="buttons">
+              <button type="reset">Очистить</button>
+              <button class="open-btn" type="reset">Зарегистрироваться</button>
+            </div>
+            <div class="hyperlinks">
+              <a href="#" class="forget">Забыли пароль?</a>
+              <a href="./login.html" class="registraition">Войти</a>
+            </div>
+          </form>
+          <a href="./index.html" class="home">На главную</a>
+        </div>
+      </section>
+    </div>
+  </body>
+  <script>
+    const modal_box = document.querySelector(".modal_box"),
+      overlay = document.querySelector(".overlay"),
+      showBtn = document.querySelector(".open-btn"),
+      closeBtn = document.querySelector(".close-btn");
+
+    showBtn.addEventListener("click", () => modal_box.classList.add("active"));
+
+    overlay.addEventListener("click", () =>
+      modal_box.classList.remove("active")
+    );
+
+    closeBtn.addEventListener("click", () =>
+      modal_box.classList.remove("active")
+    );
+  </script>
+</html>

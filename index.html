@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <title>Bakery Store</title>
+    <link
+      rel="shortcut icon"
+      href="./img/free-icon-shopping-basket-1077979.png"
+      type="image/png"
+    />
+  </head>
+  <body>
+    <!-- start header  -->
+    <div class="vverh">
+      <a href="#"><img src="./img/upload.png" alt="up" /></a>
+    </div>
+      <header>
+        <img src="./img/logo.png" alt="logo" class="logo" />
+        <!-- переключатель темы -->
+        <div class="toggle">
+          <button class="btn-noch">
+          <a><img src="./img/crescent-moon-phase.png" alt="moon" /></a>
+        </button>
+        <button class="btn-svet">
+          <a><img src="./img/sun-rays.png" alt="sun" /></a>
+        </button>
+        </div>
+        <!-- конец переключателя -->
+        <nav>
+          <div class="nav1">
+            <ul>
+              <li><a href="#o_nas">О нас</a></li>
+              <li class="catalog">
+                <a href="#menu">Меню</a>
+                <img
+                  class="arrow"
+                  src="./img/down-arrow.png"
+                  alt="down_menu"
+                  class="arrow"
+                />
+                <ul class="sub-menu">
+                  <li><a href="#menu">Все</a></li>
+                  <li><a href="#menu">Десерты</a></li>
+                  <li><a href="#menu">Хлеба</a></li>
+                  <li><a href="#menu">Напитки</a></li>
+                </ul>
+              </li>
+              <li><a href="#reviews">Отзывы</a></li>
+              <li><a href="#workers">Наши работники</a></li>
+              <li><a href="#link">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="nomer">
+            <a href="tel:+7 (987)-123-45-67">+7 (987)-123-45-67</a>
+          </div>
+          <div class="basket">
+            <a href="#">
+              <img src="./img/free-icon-shopping-basket-1077979.png" alt="basket" />
+            </a>
+          </div>
+
+          <div class="login">
+            <a href="./login.html">
+              <img src="./img/login.png" alt="login" />
+            </a>
+          </div>
+        </nav>
+        <div class="toggle_btn">
+          <img src="./img/menu.png" alt="toggle" />
+        </div>
+      </header>
+
+      <!-- start dropdown menu  -->
+      <div class="dropdown_menu">
+        <div class="header">
+          <a href="#">
+            <img src="./img/logo.png" alt="logo" class="logo_menu" />
+          </a>
+          <div class="socseti">
+            <img src="./img/telegram.png" alt="telegram" />
+            <img src="./img/vk.png" alt="vkontakte" />
+            <img src="./img/play.png" alt="youtube" />
+          </div>
+          <img src="./img/close.png" alt="close" class="close" />
+        </div>
+
+        <div class="do">
+          <a href="#"
+            ><img
+              src="./img/free-icon-shopping-basket-1077979.png"
+              alt="basket"
+          /></a>
+          <a href="./login.html"><img src="./img/login.png" alt="login" /></a>
+        </div>
+
+        <div class="navigation_menu">
+          <ul>
+            <li><a href="#o_nas">О нас</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#reviews">Отзывы</a></li>
+            <li><a href="#workers">Наши работники</a></li>
+            <li><a href="#link">Контакты</a></li>
+          </ul>
+        </div>
+
+        <div class="phone">
+          <img src="./img/phone-call.png" alt="phone" />
+          <a href="tel:+7 (987)-123-45-67">+7 (987)-123-45-67</a>
+        </div>
+      </div>
+      <!-- end dropdown menu  -->
+
+      <!-- end header  -->
+      <!-- start bg -->
+      <section class="bg">
+        <p class="povar">пекарня с историей</p>
+        <p class="best">Bakery Store</p>
+        <button class="choose"><a href="#menu">Выбрать</a></button>
+      </section>
+    <!-- end bg -->
+
+    <!-- start menu  -->
+    <section class="menu" id="menu">
+      <p>Меню</p>
+      <div class="nav_pizza">
+        <ul>
+          <li class="all">
+            <a href="#menu" data-color=".all" class="a" id="color_link">все</a>
+          </li>
+          <li class="desert">
+            <a href="#menu" data-color=".desert" class="a">десерты</a>
+          </li>
+          <li class="bread">
+            <a href="#menu" data-color=".bread" class="a">хлеба</a>
+          </li>
+          <li class="napitki">
+            <a href="#menu" data-color=".napitki" class="a">напитки</a>
+          </li>
+        </ul>
+      </div>
+      <div class="cards">
+        <div class="card all desert">
+          <img
+            src="./img/des1.jpg"
+            alt="card"
+            style="width: 230px; height: 170px"
+          />
+          <div class="title">Пироженое Крем-Брюле</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90гр</a></li>
+              <li class="cm100"><a href="#">100гр</a></li>
+              <li class="cm110"><a href="#">110гр</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>120</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all desert">
+          <img src="./img/desert3.jpg" alt="card" style="width: 250px" />
+          <div class="title">Черничка</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90гр</a></li>
+              <li class="cm100"><a href="#">100гр</a></li>
+              <li class="cm110"><a href="#">110гр</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>110</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all desert">
+          <img src="./img/desert 4.jpg" alt="card" />
+          <div class="title">Круассан</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90гр</a></li>
+              <li class="cm100"><a href="#">100гр</a></li>
+              <li class="cm110"><a href="#">110гр</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>200</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all desert">
+          <img src="./img/desert 5.jpg" alt="card" style="height: 160px" />
+          <div class="title">Заварушка</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90гр</a></li>
+              <li class="cm100"><a href="#">100гр</a></li>
+              <li class="cm110"><a href="#">110гр</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>150</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all bread">
+          <img src="./img/br1.jpg" alt="card" style="width: 250px; height: 170px" />
+          <div class="title">Белый хлеб</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90гр</a></li>
+              <li class="cm100"><a href="#">100гр</a></li>
+              <li class="cm110"><a href="#">110гр</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>40</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all bread">
+          <img src="./img/br2.jpg" alt="card" width="250px" />
+          <div class="title">Батон</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90гр</a></li>
+              <li class="cm100"><a href="#">100гр</a></li>
+              <li class="cm110"><a href="#">110гр</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>35</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all bread">
+          <img src="./img/br3.jpg" alt="card" style="width: 250px" />
+          <div class="title">Булочка с кунжутом</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90гр</a></li>
+              <li class="cm100"><a href="#">100гр</a></li>
+              <li class="cm110"><a href="#">110гр</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>20</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all napitki">
+          <img src="./img/coffe2.jpg" alt="card" style="width: 250px" />
+          <div class="title">Кофе</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90мл</a></li>
+              <li class="cm100"><a href="#">100мл</a></li>
+              <li class="cm110"><a href="#">110мл</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>105</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all napitki">
+          <img src="./img/coffee1.jpg" alt="card" style="width: 250px" />
+          <div class="title">Горячий шоколад</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90мл</a></li>
+              <li class="cm100"><a href="#">100мл</a></li>
+              <li class="cm110"><a href="#">110мл</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>125</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all napitki">
+          <img src="./img/tea.jpeg" alt="card" style="width: 250px" />
+          <div class="title">Чай</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90мл</a></li>
+              <li class="cm100"><a href="#">100мл</a></li>
+              <li class="cm110"><a href="#">110мл</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <div class="price">
+              <p>65</p>
+              <img src="./img/ruble-currency-sign.png" alt="rubl" />
+            </div>
+            <button class="busket"><a href="#">В корзину</a></button>
+          </div>
+        </div>
+
+        <div class="card all napitki">
+          <img
+            src="./img/milk1.jpg"
+            alt="card"
+            style="height: 180px; width: 250px"
+          />
+          <div class="title">Молочный коктейль</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90мл</a></li>
+              <li class="cm100"><a href="#">100мл</a></li>
+              <li class="cm110"><a href="#">110мл</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <p>Скоро в наличии</p>
+          </div>
+        </div>
+
+        <div class="card all napitki">
+          <img
+            src="./img/milk2.jpg"
+            alt="card"
+            style="width: 200px; height: 180px"
+          />
+          <div class="title">Молочный коктейль</div>
+          <div class="subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi
+            sapiente nulla dolorum dolores impedit recusandae.
+          </div>
+          <div class="cm">
+            <ul>
+              <li class="cm90"><a href="#">90мл</a></li>
+              <li class="cm100"><a href="#">100мл</a></li>
+              <li class="cm110"><a href="#">110мл</a></li>
+            </ul>
+          </div>
+          <div class="top">
+            <p>Скоро в наличии</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end menu  -->
+
+    <!-- start slaider -->
+    <section class="reviews" id="reviews">
+      <p class="review_name">Отзывы</p>
+      <div class="slide-container swiper">
+        <div class="slide-content">
+          <div class="card-wrapper swiper-wrapper">
+            <div class="card_reviews swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="./img/img1.jpg" alt="card" class="card-img" />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Давид</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, recusandae? Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Rerum, perferendis.
+                </p>
+                <button class="button">view more</button>
+              </div>
+            </div>
+
+            <div class="card_reviews swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="./img/img2.jpg" alt="card" class="card-img" />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Nik</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, recusandae? Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Rerum, perferendis.
+                </p>
+                <button class="button">view more</button>
+              </div>
+            </div>
+
+            <div class="card_reviews swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="./img/img3.jpg" alt="card" class="card-img" />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Лана</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, recusandae? Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Rerum, perferendis.
+                </p>
+                <button class="button">view more</button>
+              </div>
+            </div>
+
+            <div class="card_reviews swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="./img/img4.jpg" alt="card" class="card-img" />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Mike Bery</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, recusandae? Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Rerum, perferendis.
+                </p>
+                <button class="button">view more</button>
+              </div>
+            </div>
+
+            <div class="card_reviews swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="./img/img5.jpg" alt="card" class="card-img" />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Мария</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, recusandae? Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Rerum, perferendis.
+                </p>
+                <button class="button">view more</button>
+              </div>
+            </div>
+
+            <div class="card_reviews swiper-slide">
+              <div class="image-content">
+                <span class="overlay"></span>
+                <div class="card-image">
+                  <img src="./img/img6.jpg" alt="card" class="card-img" />
+                </div>
+              </div>
+              <div class="card-content">
+                <h2 class="name">Tony Fasco</h2>
+                <p class="description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tenetur, recusandae? Lorem, ipsum dolor sit amet consectetur
+                  adipisicing elit. Rerum, perferendis.
+                </p>
+                <button class="button">view more</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next swiper-navBtn"></div>
+        <div class="swiper-button-prev swiper-navBtn"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- end slaider  -->
+
+    <!-- start o_nas -->
+    <section class="o_nas" id="o_nas">
+      <p>О нас</p>
+      <div class="onas">
+        <video autoplay loop muted plays-inline class="background-clip">
+          <source src="./img/video_o_nas.mp4" type="video/mp4" />
+        </video>
+        <div class="text">
+          <p>
+            Наша продукция готовится исключительно из натуральных продуктов без
+            использования красителей, ароматизаторов и усилителей вкуса. Поэтому
+            вкус изделий из <span class="bold">Bakery Store</span> — это вкус
+            настоящей домашней выпечки.
+          </p>
+          <br />
+          <p>
+            Мы вкладываем душу в нашу работу, используя только лучшие
+            ингредиенты, потому что все, что мы делаем, мы делаем с любовью.
+            Порадуйте себя, своих родных и близких, ведь вы дарите не только
+            вкусную и натуральную выпечку ؘ– вы дарите здоровье, радость и
+            любовь.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end o_nas -->
+
+    <!-- start workers  -->
+    <section class="workers" id="workers">
+      <p>Наши сотрудники</p>
+      <div class="container1">
+        <div class="grid-wrapper">
+          <!-- <div class="card_img"></div> -->
+          <div class="wide">
+            <img src="./img/wide.jpg" alt="worker" class="worker" />
+            <div class="desc">
+              <div class="block">Пекарь</div>
+            </div>
+          </div>
+          <div class="big">
+            <img src="./img/director.jpg" alt="worker" class="worker" />
+            <div class="desc">
+              <div class="block block2">Директор</div>
+            </div>
+          </div>
+          <div class="admin">
+            <img src="./img/admin.jpg" alt="worker" class="worker" />
+            <div class="desc">
+              <div class="block block3">Администратор</div>
+            </div>
+          </div>
+          <div class="barmen">
+            <img src="./img/barmen.jpg" alt="worker" class="worker" />
+            <div class="desc">
+              <div class="block block4">Бармен</div>
+            </div>
+          </div>
+          <div class="wide1">
+            <img src="./img/waiter.jpg" alt="worker" class="worker" />
+            <div class="desc">
+              <div class="block block5">Официант</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end workers -->
+
+    <!-- start map -->
+    <section class="map" id="link">
+      <p>Как нас найти?</p>
+      <div class="map_content">
+        <div id="map">
+          <div class="container_map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1455.623641704995!2d52.29359897090154!3d54.900317001468935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41605db9307cfd3b%3A0x21b04f0fcc5e483b!2z0YPQuy4g0JvQtdC90LjQvdCwLCA0MSwg0JDQu9GM0LzQtdGC0YzQtdCy0YHQuiwg0KDQtdGB0L8uINCi0LDRgtCw0YDRgdGC0LDQvSwgNDIzNDUw!5e0!3m2!1sru!2sru!4v1682334421860!5m2!1sru!2sru"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="connect">
+          <div class="adres">
+            <span>Наш адрес</span>
+            <p>г.Альметьевск ул.Ленина 41</p>
+          </div>
+          <div class="number">
+            <span>Наш телефон</span>
+            <p>+7(987)-123-45-67</p>
+          </div>
+
+          <div class="socseti">
+            <span>Наши соцсети</span>
+            <div class="socseti_img">
+              <a href="#"><img src="./img/telegram.png" alt="telegram" /></a>
+              <a href="#"><img src="./img/vk.png" alt="vkontakte" /></a>
+              <a href="#"><img src="./img/play.png" alt="youtube" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end map  -->
+
+    <!-- start footer  -->
+    <footer>
+      <p>&#169; Viktoria Zhitskus, 2023</p>
+    </footer>
+    <!-- end footer  -->
+  </body>
+  <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/main.js"></script>
+</html>
